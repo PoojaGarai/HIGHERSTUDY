@@ -1,0 +1,139 @@
+.faq-container {
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif; /* Change font family */
+}
+
+.faq-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.faq {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.faq:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.faq-question {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.faq-answer {
+  display: none;
+  font-size: large;
+  padding: 5px;
+}
+
+.faq-answer.active {
+  display: block;
+}
+
+.raise-question-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto; /* Centering the button */
+}
+
+.raise-question-button:hover {
+  background-color: #0056b3;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-icon {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: disc; /* Adding bullets */
+  margin-left: 20px; /* Adjust indent as needed */
+}
+/* Existing styles remain unchanged */
+
+.raise-question-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.raise-question-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.raise-question-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.raise-question-button:hover {
+  background-color: #0056b3;
+}
+
+.submitted-questions {
+  margin-top: 20px;
+}
+
+.submitted-questions h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.submitted-questions ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}

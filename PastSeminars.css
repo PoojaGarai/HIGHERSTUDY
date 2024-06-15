@@ -1,0 +1,88 @@
+.seminars-container {
+  max-inline-size: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: cursive;
+  font-style: italic;
+  font-size: larger;
+}
+.seminar-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.seminar-card {
+  background-color: #0f81d20b;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 123, 145, 0.708);
+  flex: 1 1 1 calc(33.33% - 100px); /* Adjusted to be responsive and fit within the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content within the card */
+  margin: 10px; /* Added margin to ensure proper spacing */
+  max-inline-size: 300px;
+  max-block-size: 600px; /* Added max-width to control the size */
+}
+
+.seminar-image {
+  inline-size: 300px; /* Make image take full width of the card */
+  block-size: 250px; /* Maintain aspect ratio */
+  border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+.seminar-details {
+  padding: 10px 0px; /* Adjusted padding */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+p{
+  font-size: larger;
+  padding: 1px;
+  margin-block-end: 10px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-block-end: 10px; /* Adding margin bottom to headings */
+}
+
+
+@media (max-inline-size: 668px) {
+  .seminar-card {
+    inline-size: 100%; /* Full width on smaller screens */
+  }
+}
+
+.details-button {
+  margin-block-start: 10px;
+  margin-inline-end: 10px; /* Add space between Details and Register buttons */
+  padding: 10px 15px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button {
+  margin-block-end: 10px;
+  padding: 10px 15px;
+  background-color: #38c0b0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+  background-color: #00574b;
+}
