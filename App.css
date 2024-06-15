@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  margin: 20px;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3fa2b13; /* Adjust background color */
+}
+
+/* General content styles */
+.content {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Responsive adjustments */
+@media (max-inline-size: 768px) {
+  .main-content {
+    margin: 10px;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
